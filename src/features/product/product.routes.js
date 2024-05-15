@@ -15,4 +15,4 @@ productRoutes.post("/create", createNewProduct);
 // DELETE Routes
 productRoutes.delete("/:id", deleteProduct);
 // PUT Routes
-productRoutes.put("/:id/update_quantity", updateProduct);
+productRoutes.post("/:id/update_quantity", updateProduct);
